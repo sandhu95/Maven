@@ -30,9 +30,12 @@ public class SimpleForm extends Application {
 		Button goButton = new Button();
 		goButton.setText("Click Me!");
 		// 2. Make a layout manager
-		
+		VBox root = new VBox();
 		
 		// 3. Add controls to the layout manager
+		root.getChildren().add(helloLabel);
+		root.getChildren().add(nameTextBox);
+		root.getChildren().add(goButton);
 		
 		// 4. Add layout manager to scene
 		
