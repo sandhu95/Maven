@@ -41,7 +41,12 @@ public class SimpleForm extends Application {
 		
 		// 5. Add scene to a stage
 		
+		primaryStage.setScene(new Scene(root,300,250));
+		primaryStage.setTitle("Example 01");
+		
 		// 6. Show the app
+		primaryStage.show();
+		
 	}
 
 }
